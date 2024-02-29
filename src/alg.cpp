@@ -1,5 +1,4 @@
-// Copyright 2021 NNTU-CS
-
+#include <iostream>
 int gcd(int a, int b) {
     while (b != 0) {
         int c = b;
