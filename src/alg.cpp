@@ -1,7 +1,7 @@
 #include <iostream>
 int gcd(int a, int b) {
+    int c;
     while (b !=0) {
-        int c = b;
         b = a % b;
         a = c;
     }
